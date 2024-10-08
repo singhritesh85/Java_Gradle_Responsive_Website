@@ -28,7 +28,7 @@ test {
 
 sonarqube {
     properties {
-       	property "sonar.projectKey", "dexter"
-        property "sonar.projectName", "dexter"
+       	property "sonar.projectKey", "Responsive-Website"
+        property "sonar.projectName", "Responsive-Website"
     }
 }
