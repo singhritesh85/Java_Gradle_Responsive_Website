@@ -1,8 +1,8 @@
-FROM openjdk:11 as base 
+FROM eclipse-temurin:11-jdk as base 
 WORKDIR /app
 COPY . . 
-RUN chmod +x gradlew
-RUN ./gradlew build 
+#RUN chmod +x gradlew
+#RUN ./gradlew build 
 
 FROM tomcat:9
 WORKDIR webapps
