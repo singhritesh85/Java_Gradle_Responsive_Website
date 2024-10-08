@@ -8,7 +8,7 @@ plugins {
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '1.8'
+sourceCompatibility = '1'
 
 repositories {
 	mavenCentral()
@@ -28,7 +28,7 @@ test {
 
 sonarqube {
     properties {
-       	property 'sonar.host.url', 'http://34.133.168.8:9000/'
-        property 'sonar.login', '755a69c95d100112c7128a99b5850f51b10ed01d'
+       	property "sonar.projectKey", "dexter"
+        property "sonar.projectName", "dexter"
     }
 }
